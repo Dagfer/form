@@ -1,5 +1,8 @@
 #logo-back {
-    background-image: url("~/repos/form/david-clode-python.jpg");
+    color: antiquewhite;
+    background-color: brown;
+    background-image: url("../david-clode-python.jpg");
+    height: 400px;
 }
 
 body {
