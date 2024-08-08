@@ -1,8 +1,12 @@
 #logo-back {
+   
     color: antiquewhite;
     background-color: brown;
     background-image: url("../david-clode-python.jpg");
-    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
