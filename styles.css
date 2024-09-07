@@ -1,21 +1,54 @@
-#logo-back {
-   
-    color: antiquewhite;
-    background-color: brown;
-    background-image: url("../david-clode-python.jpg");
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
+* {
+    outline: 2px orangered solid;
 }
+
+html,
+body {
+    height: 100%;
+}
+
 
 body {
     display: flex;
     margin: 0;
+    height:100vh;
+    width:100vh;
+    
+}
+
+header{
+    height: 100vh;
+}
+#logo-back {
+    color: antiquewhite;
+    background-color: brown;
+    /* background-image: url("../david-clode-python.jpg"); */
+    height: 100vh;
 
 }
+
+img{
+    position: relative;
+}
+#logo-text{
+    position: absolute;
+    width: 100%;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  top: 8rem;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: roboto;
+}
+
 
 form {
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+cta{
+    display: flex;
 }
