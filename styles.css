@@ -28,7 +28,7 @@ body {
 }
 
 
-#logo-text{
+.background{
   background: black;
   opacity: 0.6;
   color: white;
@@ -36,7 +36,11 @@ body {
   font-size: 1.2em;
   font-family: roboto;
 }
-
+.credit, .credit a{
+  background: black;
+  opacity: 0.6;
+  color: white;
+}
 .form-area{
     flex: 4;
     display: flex;
@@ -46,11 +50,19 @@ body {
   background-color: antiquewhite;
 
 }
+p, .btn-box {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  opacity: 1;
+
+}
 .container{
   width: 60em;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 10px;
+  margin-top: 10px;
   align-self: center;
   box-shadow: 0 15px 20px;
 }
