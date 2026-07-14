@@ -79,8 +79,9 @@ form {
   margin: 5px;
   justify-content:start;
 }
-/* didnt work, review nth child*/ 
+
+/* didnt work, review nth child
 .input-box:nth-child(2n){
   justify-content: start;
 }
-
+*/ 
