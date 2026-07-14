@@ -81,6 +81,6 @@ form {
 }
 /* didnt work, review nth child*/ 
 .input-box:nth-child(2n){
-  justify-content: end;
+  justify-content: start;
 }
 
