@@ -81,6 +81,9 @@ form {
   justify-content:start;
 }
 
+input:user-invalid {
+  border-color: rgb(160, 5, 5);
+}
 /* didnt work, review nth child
 .input-box:nth-child(2n){
   justify-content: start;
