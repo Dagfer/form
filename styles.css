@@ -80,7 +80,9 @@ form {
   margin: 5px;
   justify-content:start;
 }
-
+input:focus {
+  background-color: rgb(200, 224, 233);
+}
 input[attribute='password'], input:user-invalid {
   border-color: rgb(160, 5, 5);
 }
